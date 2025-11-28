@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
@@ -20,6 +19,7 @@
     "@fortawesome/react-fontawesome": "^3.1.0",
     "@heroicons/react": "^2.2.0",
     "gh-pages": "^6.3.0",
+    "lucide-react": "^0.554.0",
     "motion": "^12.23.24",
     "react": "^19.1.1",
     "react-countup": "^6.5.3",

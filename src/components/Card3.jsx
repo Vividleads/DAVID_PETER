@@ -14,12 +14,10 @@ const Card2 = () => {
       </div>
 
       {/* DESCRIPTION */}
-      <h1 className='text-blue-400 font-bold'>REACT JOBS</h1>
       <div className='text-gray-200 text-sm leading-relaxed'>
-React Jobs is a job-listing platform focused on front-end development roles. It curates
- and displays opportunities specifically for React 
- developers, offering a straightforward and
-  user-friendly way to discover relevant vacancies.      </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
+        autem repellendus. Optio culpa, fugiat enim illum sequi.
+      </div>
 
       {/* SKILLS + ICONS */}
       <div className='flex flex-wrap gap-2'>

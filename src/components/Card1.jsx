@@ -14,10 +14,13 @@ const Card1 = () => {
       </div>
 
       {/* DESCRIPTION */}
+            <h1 className='text-blue-400 font-bold'>BOOKSHOW</h1>
+
       <div className='text-gray-200 text-sm leading-relaxed'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
-        autem repellendus. Optio culpa, fugiat enim illum sequi.
-      </div>
+          Bookshow is an online open-library platform that provides
+           users access to a wide collection of books across various genres. 
+           It features a clean interface, easy navigation, and a simple
+            browsing experience for readers.      </div>
 
       {/* SKILLS + ICONS */}
       <div className='flex flex-wrap gap-2'>

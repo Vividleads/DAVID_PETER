@@ -14,7 +14,7 @@ import img7 from '../assets/Git.png'
 const Skills = () => {
   return (
     <>
-      <div className='bg-gray-900 min-h-1/2 px-6 py-6'>
+      <div id="skills" className='bg-gray-900 min-h-1/2 px-6 py-6'>
         {/* HEADING  */}
          <div className='flex items-center justify-center text-3xl font-bold'>
             <h2 className='text-gray-200'>My <span className='text-blue-300'>Skills</span></h2>

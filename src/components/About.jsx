@@ -10,17 +10,24 @@ const About = () => {
   `;
 
   const fullText = `
-    My journey into development started with curiosity and grew into a passion for crafting intuitive digital experiences that solve real problems.
-    Over the years, I’ve collaborated on diverse projects with teams and also built independent applications, which strengthened my problem-solving mindset, attention to detail, and ability to write clean, reusable code.
-    I specialize in building responsive, interactive user interfaces using React.js, along with modern tools and technologies like JavaScript (ES6+), Tailwind CSS, Git, and REST APIs.
-    I currently work as a freelance developer, helping brands and startups transform ideas into scalable and user-focused web solutions.
-    I’m also open to remote roles where I can collaborate with forward-thinking teams and contribute to impactful projects.
-  `;
+My journey into development began with simple curiosity and evolved into a strong passion for building
+ intuitive and meaningful digital experiences. Over the years, I’ve worked on a wide range of projects—both
+  independently and within teams—which has sharpened my problem-solving abilities, attention to detail, and commitment
+   to writing clean, scalable, and reusable code.
+
+I specialize in creating responsive, interactive user interfaces using React.js, Next.js, and TypeScript, 
+along with modern tools such as JavaScript (ES6+), Tailwind CSS, Git, and REST APIs. I also have hands-on
+ experience with backend integration, enabling me to build full and seamless end-to-end web solutions.
+
+Currently, I work as a freelance developer, helping brands and startups turn their ideas into polished,
+
+user-centered applications. I’m also open to remote opportunities where I can collaborate with innovative
+ teams and contribute to impactful, scalable products.  `;
 
   return (
     <>
       {/* ABOUT SECTION  */}
-      <div className='bg-gray-900 min-h-screen px-6 py-6'>
+      <div id="about" className='bg-gray-900 min-h-screen px-6 py-6'>
         {/* HEADING  */}
         <div className='items-center text-center'>
           <h2 className='text-3xl lg:text-4xl font-bold text-white justify-center'>
