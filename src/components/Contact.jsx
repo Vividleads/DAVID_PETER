@@ -22,7 +22,7 @@ const ContactForm = () => {
     setStatus("sending");
 
     // Create mailto link with form data
-    const mailtoLink = `mailto:davidpeter@example.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:vividleads4@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
 
