@@ -45,6 +45,7 @@ user-centered applications. I’m also open to remote opportunities where I can 
           {/* IMAGE  */}
           <div className="w-full lg:w-1/2 flex justify-center lg:pt-8">
             <img
+            loading="lazy"
               src={img}
               alt="about"
               className="w-72 p-3 md:w-80 lg:w-96 h-auto object-contain"

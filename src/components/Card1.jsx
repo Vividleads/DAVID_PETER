@@ -10,7 +10,7 @@ const Card1 = () => {
 
       {/* IMAGE */}
       <div className='w-full h-48 overflow-hidden rounded-lg'>
-        <img src={img} alt="Project Preview" className='w-full h-full object-cover hover:scale-105 transition duration-500' />
+        <img loading="lazy" src={img} alt="Project Preview" className='w-full h-full object-cover hover:scale-105 transition duration-500' />
       </div>
 
       {/* DESCRIPTION */}
@@ -34,7 +34,7 @@ const Card1 = () => {
 
       {/* BUTTONS */}
       <div className='flex gap-3'>
-        <a href="https://vividleads.github.io/BOOKSHOW/" className='px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg transition'>Live Demo</a>
+        <a target='blank' href="https://vividleads.github.io/BOOKSHOW/" className='px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg transition'>Live Demo</a>
         <a href="#" className='px-4 py-2 bg-gray-700 hover:bg-gray-800 text-white text-sm rounded-lg transition'>GitHub</a>
       </div>
     </div>

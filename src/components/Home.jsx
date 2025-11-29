@@ -8,9 +8,9 @@ const HeroSection = () => {
     // Create a link element
     const link = document.createElement('a');
     // Set the href to your CV file path (place your CV in the public folder)
-    link.href = '/path-to-your-cv.pdf'; // Update this path to your actual CV file
+    link.href = '/DAVID_PETER_YARHERE_CV.pdf'; // Update this path to your actual CV file
     // Set the download attribute with desired filename
-    link.download = 'David_Peter_CV.pdf';
+    link.download = 'DAVID_PETER_YARHERE_CV.pdf';
     // Trigger the download
     document.body.appendChild(link);
     link.click();
@@ -44,6 +44,7 @@ const HeroSection = () => {
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-blue-500 overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 bg-gray-800 flex items-center justify-center">
                 {/* Placeholder text - Remove this and add your image */}
                 <img 
+                loading="lazy" 
                   src={img} 
                   alt="profile" 
                     className="w-full h-full object-cover object-center"
@@ -52,7 +53,7 @@ const HeroSection = () => {
               
               {/* Floating badge - Years of experience */}
               <div className="absolute -bottom-4 -right-4 bg-blue-500 text-white px-6 py-3 rounded-full font-bold shadow-xl border-4 border-gray-900">
-                5+ Years
+                3+ Years
               </div>
             </div>
           </div>
