@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../assets/HomeImg.png'
+import img from '../assets/HomeImg.png';
 import { Github, Linkedin, Twitter, MessageCircle, Download, ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
@@ -53,7 +53,7 @@ const HeroSection = () => {
               
               {/* Floating badge - Years of experience */}
               <div className="absolute -bottom-4 -right-4 bg-blue-500 text-white px-6 py-3 rounded-full font-bold shadow-xl border-4 border-gray-900">
-                3+ Years
+                5+ Years
               </div>
             </div>
           </div>
